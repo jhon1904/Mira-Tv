@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
     <title>Mira Tv</title>
 </head>
@@ -36,8 +41,42 @@
 		</div>
     </main>
 
+    <section class="search container">
+
+        <div class="search-txt">
+            <h2>Series</h2>
+        </div>
+    </section>
+
+    <section class="movies container">
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img src="series/griselda.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="series/rigo.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="series/berlin.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="series/juego del calamar.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="series/ted.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js" ></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
