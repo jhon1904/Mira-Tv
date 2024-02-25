@@ -42,6 +42,7 @@ body {
 .swiper-slide img {
     display: block;
     width: 100%;
+    border-radius: 15px;
 }
 
 @media(max-width:991px) {
